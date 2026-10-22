@@ -7,6 +7,9 @@
 
 **ClearURLs** is an add-on based on the new WebExtensions technology and is optimized for *Firefox* and *Chrome* based browsers.
 
+> [!NOTE]
+> This fork is mainly maintained as the ruleset for [cf-remove-tracker-arg-rs](https://github.com/HaeImCH/cf-remove-tracker-arg-rs), not for the ClearURLs extension. It is a ClearURLs-format ruleset, so the extension can load it as custom rules, but changes here are made and tested for the worker.
+
 This repo manages the rules for the ClearURLs addon. Every push to `master` is built by Cloudflare Pages (`build_tools/build.sh`), which creates the checksum files for the rules and publishes them.
 
 ## Contribute
